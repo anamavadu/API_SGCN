@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+
 const EmpleadoSchema = new mongoose.Schema({
     nombre: {
         type: String,
@@ -8,7 +9,7 @@ const EmpleadoSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    salario: {
+    salarioPorHora: {
         type: Number,
         required: true
     },

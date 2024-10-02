@@ -20,7 +20,7 @@ password: {
 },
 role: {
     type: String,
-    enum: ['usuario', 'admin', 'empleado', 'contador'],
+    enum: ['usuario', 'admin', 'contador'],
     default: 'usuario'
 }
 });
