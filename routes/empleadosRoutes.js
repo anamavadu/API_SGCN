@@ -9,10 +9,13 @@ router.post('/empleados',
 );
 // Muestra todos los empleados
 router.get('/empleados', 
-    empleadosController.mostrarEmpleados);
+    empleadosController.mostrarEmpleados
+);
+
 // Muestra un empleado específico por su ID
 router.get('/empleados/:idEmpleado', 
-    empleadosController.mostrarEmpleado);
+    empleadosController.mostrarEmpleado
+);
 // Actualizar empleados
 router.put('/empleados/:idEmpleado', 
     empleadosController.subirArchivo,

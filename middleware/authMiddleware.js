@@ -1,5 +1,6 @@
-const jwt = require('jsonwebtoken');
+const jwt = require('jsonwebtoken'); // Importa el paquete 'jsonwebtoken' para trabajar con tokens JWT
 
+// Middleware de autenticación que verifica si el usuario tiene un token válido
 const authMiddleware = (req, res, next) => {
 const token = req.header('Authorization').replace('Bearer ', '');
 if (!token) {

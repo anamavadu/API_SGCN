@@ -3,6 +3,7 @@ const conectarDB = require('./config/db');
 const authRoutes = require('./routes/authRoutes.js');
 const empleadosRoutes = require('./routes/empleadosRoutes');
 const salariosRoutes = require('./routes/salariosRoutes');
+
 // Conectar a la base de datos
 conectarDB();
 

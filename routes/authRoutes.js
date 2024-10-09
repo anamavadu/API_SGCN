@@ -3,7 +3,7 @@ const { register, login, updateUser } = require('../controllers/authController')
 const authMiddleware = require('../middleware/authMiddleware');
 
 const router = express.Router();
-
+// Rutas de Registo y Login
 router.post('/register', register);
 router.post('/login', login);
 

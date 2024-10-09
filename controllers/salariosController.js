@@ -1,5 +1,6 @@
 const Salario = require('../models/Salario');
 
+// Crea una nueva nómina
 exports.nuevoSalario = async (req, res, next) => {
     const salario = new Salario(req.body);
     try {

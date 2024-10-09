@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// Define el esquema para el modelo de empleado
 const EmpleadoSchema = new mongoose.Schema({
     nombre: {
         type: String,
